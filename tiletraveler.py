@@ -4,7 +4,7 @@
 # skref 4: ef leikmaður sló inn vitlausan staf þá fær hann að gera aftur, 
 # eftir að setning í skrefi 3 hefur verið prentuð
 # skref 5: gera while lykkju sem fer í gegnum if setningar þar sem while greinir hvaða reit leikmaður er á.
-# skref 6: þegar leikmaður hefur komist á endareit, 3.1 þá prentum við út sigursetningu og lokuð prógramminu. 
+# skref 6: þegar leikmaður hefur komist á endareit, 3.1 þá prentum við út sigursetningu og lokuð prógramminu.. 
 
 #Finna stöðu á leikmanni
 #setja inni while lykkju og taka inn hreyfingu
