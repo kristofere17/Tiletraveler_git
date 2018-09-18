@@ -29,7 +29,6 @@ while True:
         print("(N)orth. ")
         new_position = input("Direction: ")
         if new_position.upper() == "N":
-            print(" your position is 1,2")
             position = 4
         else:
             print("Not a valid direction!")
@@ -57,18 +56,18 @@ while True:
 
     if position == 7:
         print("(S)outh or (E)ast.")
-        new_position = input("Direction")
+        new_position = input("Direction: ")
         if new_position.upper() == "S":
-            print(" your position is 1,2")
             position = 4
         elif new_position.upper() == "E":
-            print(" your position is 2,3")
             position = 8
         else:
             print("Not a valid direction!")
 
     if position == 8:
-        new_position = input("You can travel: (E)ast or (W)est. ")
+        print("(E)ast or (W)est. ")
+        new_position = input("Direction: ")
+        input
         if new_position.upper() == "E":
             print(" your position is 3,3")
             position = 9
@@ -79,7 +78,8 @@ while True:
             print("Not a valid direction!")
 
     if position == 9:
-        new_position = input("You can travel: (S)outh or (W)est. ")
+        print("(S)outh or (W)est. ")
+        new_position = input("Direction: ")
         if new_position.upper() == "S":
             print(" your position is 3,2")
             position = 6
@@ -90,7 +90,8 @@ while True:
             print("Not a valid direction!")
 
     if position == 6:
-        new_position = input("You can travel: (N)orth or (S)outh. ")
+        print( "(N)orth or (S)outh. ")
+        new_position = ("Direction: ")
         if new_position.upper() == "N":
             print(" your position is 3,3")
             position = 9
